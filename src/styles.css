@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.App {
+  font-family: Nunito;
+  text-align: center;
+}
+
+h1 {
+  font-family: Nunito;
+}
+input {
+  padding: 0.8rem;
+  width: 50%;
+}
+
+.box {
+  width: 50%;
+  justify-content: center;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+
+  padding: 1rem;
+  position: relative;
+}
